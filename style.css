@@ -1,0 +1,49 @@
+.background-img{
+    background-image: url('img/background-img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+}
+.log-name{
+    color: white;
+    padding-right: 40%;
+}
+.log-name2{
+    color: yellow;
+}
+#slider{
+    height: 400px;
+}
+.ny{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    left: 47%;
+    top: 20px;
+}
+
+
+
+.background-col{
+    background-color: whitesmoke;
+}
+
+
+@media (min-width: 320px) and (max-width: 800px) {
+    #query{
+        display: none;
+    }
+    #passquery{
+        margin: auto;
+    }
+    nav{
+        display: none;
+    }
+    #copyright{
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
